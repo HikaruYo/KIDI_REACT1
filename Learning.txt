@@ -1,0 +1,3 @@
+~Functional Components
+
+Functional Components adalah Javascript Function yang menerima Input properti yang menghasilkan Output berupa HTML (JSX)
