@@ -1,3 +1,8 @@
 ~Functional Components
 
 Functional Components adalah Javascript Function yang menerima Input properti yang menghasilkan Output berupa HTML (JSX)
+
+
+~Class Components
+
+Class Components hampir sama dengan Functional Components, tetapi Class Components dapat menyimpan sebuah Private Internal State (dapat menyimpan informasi private pada Component tersebut dan menggunakannya sebagai UI)
