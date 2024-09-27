@@ -10,9 +10,9 @@ import Follow from './components/follow'
 function App() {
   return (
     <div className="App">
-      <World></World>
-      <Welcome></Welcome>
-      <Greeting name="Hikaru"></Greeting>
+      <World />
+      <Welcome />
+      <Greeting name="Hikaru" />
       <Follow />
     </div>
   );

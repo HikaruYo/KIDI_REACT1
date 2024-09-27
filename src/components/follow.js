@@ -15,11 +15,18 @@ class Follow extends Component {
         })
     }
 
+    resetMessage() {
+        this.setState({
+            message: "Follow Me!"
+        })
+    }
+
     render() {
         return (
             <div>
                 <h1>{this.state.message}</h1>
                 <button onClick={() => this.changeMessage()}>Follow</button>
+                <button onClick={() => this.resetMessage()}>Back</button>
             </div>
         )
     }
