@@ -4,12 +4,16 @@ import './App.css';
 import World from './components/hello';
 // Pada bagian import, kita bisa custom namanya sesuai keinginan
 import Welcome from './components/welcome';
+import Greeting from './components/greeting';
+import Follow from './components/follow'
 
 function App() {
   return (
     <div className="App">
       <World></World>
       <Welcome></Welcome>
+      <Greeting name="Hikaru"></Greeting>
+      <Follow />
     </div>
   );
 }
